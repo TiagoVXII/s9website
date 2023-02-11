@@ -95,7 +95,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentos',
+                label: 'Documents',
                 to: '/',
               },
             ],
@@ -109,7 +109,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/5aqZzygJmn',
+                href: 'https://discord.gg/zuvfkFD2td',
               },
               {
                 label: 'N/A',
@@ -121,20 +121,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Documentos',
+                label: 'Documents',
                 to: '/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/TiagoVXII/websiteafg',
+                href: 'https://github.com/TiagoVXII/s9website',
               },
             ],
           },
         ],
       logo: {
-      alt: 'Bla blaa',
+      alt: 'Image',
       src: '/img/favicon.ico',
-      href: 'Bla bla',
+      href: 'N/A',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
       },
