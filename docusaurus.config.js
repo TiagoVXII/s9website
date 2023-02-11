@@ -67,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/Thumbnail.png',
+      image: 'img/favicon.ico',
       navbar: {
         title: 'Sigma-9 Website',
         logo: {
