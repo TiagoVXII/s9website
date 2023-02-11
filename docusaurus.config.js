@@ -69,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/Thumbnail.png',
       navbar: {
-        title: '',
+        title: 'Sigma-9 Website',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
