@@ -79,7 +79,7 @@ const config = {
             type: 'doc',
             docId: 'Intro',
             position: 'left',
-            label: '',
+            label: 'Documents',
           },
           {
             href: 'https://github.com/TiagoVXII/s9website',
