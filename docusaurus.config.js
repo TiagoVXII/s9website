@@ -132,9 +132,9 @@ const config = {
           },
         ],
       logo: {
-      alt: '',
-      src: '',
-      href: '',
+      alt: 'Bla blaa',
+      src: '/img/favicon.ico',
+      href: 'Bla bla',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
       },
