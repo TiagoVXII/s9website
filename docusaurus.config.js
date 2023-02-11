@@ -6,12 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Sigma-9 Website',
+  tagline: '',
   favicon: 'img/favicon.ico',
+  
+  
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://s9website.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +23,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -38,19 +40,22 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+           'https://github.com/TiagoVXII/s9website/tree/main',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TiagoVXII/s9website/tree/main',
         },
+        
+       
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -62,23 +67,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Thumbnail.png',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon-32x32.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TiagoVXII/s9website',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,8 +95,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentos',
+                to: '/',
               },
             ],
           },
@@ -100,16 +104,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'N/A',
+                href: 'N/A',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/5aqZzygJmn',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'N/A',
+                href: 'N/A',
               },
             ],
           },
@@ -117,17 +121,22 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Documentos',
+                to: '/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TiagoVXII/websiteafg',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      logo: {
+      alt: '',
+      src: '',
+      href: '',
+      },
+        copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
