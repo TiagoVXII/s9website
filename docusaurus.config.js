@@ -68,6 +68,19 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/favicon.ico',
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+      announcementBar: {
+        id: 'announcement_bar',
+        content:
+          'This website is still under progress, any issues contact your FL.',
+        backgroundColor: '7F00FF',
+        textColor: '#FFFFFF',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Sigma-9 Documentation',
         logo: {
