@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Sigma-9 Website',
+  title: 'Sigma-9 Documentation',
   tagline: '',
   favicon: 'img/favicon.ico',
   
@@ -69,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/favicon.ico',
       navbar: {
-        title: 'Sigma-9 Website',
+        title: 'Sigma-9 Documentation',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
@@ -79,7 +79,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documents',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/TiagoVXII/s9website',
@@ -91,47 +91,9 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documents',
-                to: '/',
-              },
+          
             ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'N/A',
-                href: 'N/A',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/zuvfkFD2td',
-              },
-              {
-                label: 'N/A',
-                href: 'N/A',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Documents',
-                to: '/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/TiagoVXII/s9website',
-              },
-            ],
-          },
-        ],
-      logo: {
+     logo: {
       alt: 'Image',
       src: '/img/favicon.ico',
       href: '/',
