@@ -46,6 +46,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
            'https://github.com/TiagoVXII/s9website/tree/main',
+           showLastUpdateAuthor: true,
+           showLastUpdateTime: true,
            
         },
         blog: {
