@@ -46,6 +46,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
            'https://github.com/TiagoVXII/s9website/tree/main',
+           
         },
         blog: {
           showReadingTime: false,
@@ -80,6 +81,9 @@ const config = {
         backgroundColor: '#7F00FF',
         textColor: '#FFFFFF',
         isCloseable: false,
+      },
+      sidebar: {
+        autoCollapseCategories: true,
       },
       navbar: {
         title: 'Sigma-9 Documentation',
