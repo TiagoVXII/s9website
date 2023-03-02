@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Important": {
+    "message": "Important",
+    "description": "The label for category Important in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Meet the HICOM": {
+    "message": "Meet the HICOM",
+    "description": "The label for category Meet the HICOM in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Squads": {
+    "message": "Squads",
+    "description": "The label for category Squads in sidebar tutorialSidebar"
+  }
+}
