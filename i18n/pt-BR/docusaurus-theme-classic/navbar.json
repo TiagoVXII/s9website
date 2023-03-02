@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Sigma-9 Documentation",
+    "message": "Documentação Sigma-9",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Documentos",
     "description": "Navbar item with label Docs"
   },
   "item.label.GitHub": {
