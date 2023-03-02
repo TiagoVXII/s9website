@@ -77,7 +77,7 @@ const config = {
         id: 'announcement_bar',
         content:
           'This website is still under progress, any issues contact your FL.',
-        backgroundColor: '7F00FF',
+        backgroundColor: '#7F00FF',
         textColor: '#FFFFFF',
         isCloseable: false,
       },
