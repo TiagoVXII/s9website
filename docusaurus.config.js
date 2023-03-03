@@ -148,7 +148,7 @@ const config = {
      logo: {
       alt: 'Image',
       src: '/img/Captura_de_Ecra_8.png',
-      href: '/',
+      href: 'https://discord.gg/zuvfkFD2td',
       },
         copyright: `Copyright © ${new Date().getFullYear()} Sigma-9 "Valkyries", Inc. Built with Docusaurus`,
       },
