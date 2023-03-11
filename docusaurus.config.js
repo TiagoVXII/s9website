@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'pt-BR'],
+    locales: ['en'],
   },
 
   presets: [
@@ -65,7 +65,19 @@ const config = {
       }),
     ],
   ],
-
+  themes: [
+    // ... Your other themes.
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        docsRouteBasePath: '/',
+      }),
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -112,7 +124,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           
             ],
@@ -128,16 +140,5 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-themes: [
-  // ... Your other themes.
-  [
-    require.resolve("@easyops-cn/docusaurus-search-local"),
-    /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-    ({
-      hashed: true,
-      docsRouteBasePath: '/',
-    }),
-  ],
-],
 };
 module.exports = config;
